@@ -1,0 +1,72 @@
+@import "./google.css";
+@media screen and (max-width: 767px) {
+    #header .product_wrap .list_product li {
+        width: calc(50%);
+    }
+    
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+html,
+body.on {
+    overflow: hidden; position: fixed; left: 0; top: 0; width: 100%; height: 100%;
+}
+
+#wrap {
+    min-width: 320px;
+}
+.main {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main__header {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+
+
+}
+
+.main__img {
+    width: 20rem;
+    height: 7rem;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.main-category {
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    background-color: white;
+    padding: 0.2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    overflow-x: auto;
+    font-size: 5%;
+    position: relative;
+    text-align: center;
+
+}
+
+.main-category__img1 {
+    width: 5rem;
+    height: 6rem;
+
+
+}
+.main-category__img2 {
+    width: 5rem;
+    height: 6rem;
+
+}
+
